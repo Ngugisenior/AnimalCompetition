@@ -1,64 +1,46 @@
-namespace AnimalCompetition
-{
+using System.IO;
+using System.Collections.Generic;
+using System;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace AnimalCompetition {
     //Class Definition
-    public class Animal
-    {
-        //Fields
-        public string Name;
-        public int BirthYear;
-        private int Score;
-        private int BeautyPoint;
-        private int BehaviourPoint;
-        public int AgeLimit;
-        public int ActualYear;
-        private int Age;
+    public class Animal {
 
-        //Constructor
-        public Animal(string name, int birthYear, int score, int beautyPoint, int behaviourPoint, int age){
+        //Fields
+        public Animal (string name, int birthYear, int beautyPoint, int behaviourPoint) {
             this.Name = name;
             this.BirthYear = birthYear;
             this.BeautyPoint = beautyPoint;
             this.BehaviourPoint = behaviourPoint;
-            this.Score = score;
-            this.Age = age;
         }
+//Variable type Objects
+        public string Name { get; set; }
+        public int BirthYear { get; set; }
+        public int BeautyPoint { get; private set; }
+        private int BehaviourPoint { get; set; }
+        public static int AgeLimit;
+        public static int ActualYear;
+
         //methods
-        public int Scoring(){
-            Score = AgeLimit*BehaviourPoint + (AgeLimit - AAge())*BeautyPoint;
-            return Score;
+        public void Scoring (int beautyPoint, int behaviourPoint) {
+            this.BeautyPoint = beautyPoint;
+            this.BehaviourPoint = behaviourPoint;
         }
-        public int AAge(){
-            Age = ActualYear - BirthYear;
-            return Age;
+        public int Age () {
+            return ActualYear - BirthYear;
         }
-        //Properties (getters and setters)
-        public string Name_{
-            get{ return Name; }
-            set{ Name = value; }
+
+        public virtual int Score () {
+            if (Age () < AgeLimit) {
+                return BehaviourPoint * Age () + BeautyPoint * (AgeLimit - Age ());
+            }
+            return 0;
         }
-        public int BirthYear_{
-            get{ return BirthYear; }
-            set{ BirthYear = value; }
+        public override string ToString () {
+            return Name + this.Age () + this.Score ()+"\n";
         }
-        public int Score_{
-            get { return Score; }
-            set { Score = value; }
-        }
-        public int BeautyPoint_{
-            get { return BeautyPoint; }
-            set { BeautyPoint = value; }
-        }
-        public int BehaviourPoint_{
-            get { return BehaviourPoint; }
-            set { BehaviourPoint = value; }
-        }
-        public int AgeLimit_{
-            get { return AgeLimit; }
-            set { AgeLimit = value; }
-        }
-        public int ActualYear_{
-            get{ return ActualYear; }
-            set{ ActualYear = value; }
-        }
+
     }
 }

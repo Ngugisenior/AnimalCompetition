@@ -1,0 +1,11 @@
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/obj/Debug/netcoreapp2.1/AnimalCompetition.csprojAssemblyReference.cache
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/obj/Debug/netcoreapp2.1/AnimalCompetition.csproj.CoreCompileInputs.cache
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/obj/Debug/netcoreapp2.1/AnimalCompetition.AssemblyInfoInputs.cache
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/obj/Debug/netcoreapp2.1/AnimalCompetition.AssemblyInfo.cs
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/bin/Debug/netcoreapp2.1/AnimalCompetition.deps.json
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/bin/Debug/netcoreapp2.1/AnimalCompetition.runtimeconfig.json
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/bin/Debug/netcoreapp2.1/AnimalCompetition.runtimeconfig.dev.json
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/bin/Debug/netcoreapp2.1/AnimalCompetition.dll
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/bin/Debug/netcoreapp2.1/AnimalCompetition.pdb
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/obj/Debug/netcoreapp2.1/AnimalCompetition.dll
+/home/pyraxtechnologies/Documents/Projects/C-Sharp Projects/AnimalCompetition/obj/Debug/netcoreapp2.1/AnimalCompetition.pdb
